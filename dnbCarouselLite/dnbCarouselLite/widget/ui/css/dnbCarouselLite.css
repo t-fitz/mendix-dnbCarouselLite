@@ -1,0 +1,27 @@
+.dnbCarouselLite-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.dnbCarouselLite-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dnbCarouselLite-label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.dnbCarouselLite-hideMe {
+    display: none;
+}

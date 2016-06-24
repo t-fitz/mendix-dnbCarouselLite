@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="dnbCarouselLite.widget.dnbCarouselLite" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+	<name>dnbCarouselLite</name>
+	<description>A widget to create a light-weight image carousel</description>
+
+	<properties>
+        
+        <!-- object -->
+        <property key="imagesObject" type="object" isList="true">
+			<caption>List of Images</caption>
+			<category>Images</category>
+			<description>List of images for the carousel</description>
+			<properties>
+				<property key="ImageURL" type="image">
+					<caption>Image URL</caption>
+					<category>Object</category>
+					<description>Select Image</description>
+				</property>
+                <property key="ImageLabel" type="string" required="false">
+					<caption>Image Label</caption>
+					<category>Object</category>
+					<description>Enter Image Label</description>
+				</property>
+			</properties>
+		</property>
+        
+        <!-- width (int) -->
+        <property key="widthValue" type="integer" defaultValue="0">
+			<caption>Carousel Width</caption>
+			<category>Carousel Dimensions</category>
+			<description>The width of the Carousel.</description>
+		</property>
+        
+        <!-- height (int) -->
+        <property key="heightValue" type="integer" defaultValue="0">
+			<caption>Carousel Height</caption>
+			<category>Carousel Dimensions</category>
+			<description>The height of the Carousel.</description>
+		</property>
+        
+        <!-- slide duration (int) -->
+        <property key="slideValue" type="integer" defaultValue="1000">
+			<caption>Slide Duration</caption>
+			<category>Timings</category>
+			<description>How quickly (in milliseconds) that the images slide across.</description>
+		</property>
+        
+        <!-- transition duration (int) -->
+        <property key="transitionValue" type="integer" defaultValue="3000">
+			<caption>Transition Duration</caption>
+			<category>Timings</category>
+			<description>How quickly (in milliseconds) it should move from one image to another.</description>
+		</property>
+	</properties>
+</widget>
