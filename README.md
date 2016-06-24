@@ -18,7 +18,7 @@ Just download the latest release. Add the .mpk file to your projects widget fold
 
 Use an existing image collection or create a new one.
 
-![Adding an image collection](images/AddImageCollection.PNG?raw=true "Adding an image collection")
+![Adding an image collection](images/AddImageCollection.png?raw=true "Adding an image collection")
 
 Add your images to the image collection.
 
