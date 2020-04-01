@@ -6,13 +6,13 @@ No dependencies. Small size. Uses dojo/fx to scroll the images.
 
 ----
 
-###What does it do?
+### What does it do?
 
 This widget will display a simple image carousel. You specify the size of the carousel, pick the images to display and how fast they'll scroll. There's also the option to add a label to the bottom right of the image. Simples.  
 
 ----
 
-###How to get it to work?
+### How to get it to work?
 
 Just download the latest release. Add the .mpk file to your projects widget folder. Open your project (press F4 if your project is already open). The dnbCarouselLite widget will now be available in the Add-on dropdown when you're styling a page.
 
@@ -40,7 +40,7 @@ Once you've added all your images you're good to go. Run your project and you're
 
 ----
 
-###Where will it work?
+### Where will it work?
 
 I've tested this in Mendix 5 so it should be good for use in Mendix 5 and 6.
 
@@ -50,7 +50,7 @@ This will also not work properly in IE8 and older as I've used background-size i
 
 ----
 
-###Bugs and other stuff
+### Bugs and other stuff
 
 Do let me know if you run into any troubles using this widget. Pictures and error codes welcomed.
 
